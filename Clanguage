@@ -1,9 +1,18 @@
 #include<stdio.h>
 #include<conio.h>
+void sum(int,int);
 void main()
 {
 int a,b;
 printf("enter 2 numbers");
+scanf("%d%d",&a,&b);
 printf("hello");
+sum(a,b);
 getch();
+}
+void sum(int x,int y)
+{
+int s;
+s=x+y;
+printf("%d",s);
 }
