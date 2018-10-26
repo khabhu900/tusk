@@ -2,6 +2,7 @@
 #include<conio.h>
 int main()
 {
+clrscr();
 cout<<"world";
 cout<<"hello";
 getch();
